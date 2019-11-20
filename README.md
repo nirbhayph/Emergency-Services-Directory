@@ -20,7 +20,7 @@
 - JQV Maps (@jqvmaps) - For creating a custom data based usa state selector
 - Textillate (@textillate) - For adding animation to header text
 - jQuery Toast Plugin (@toast) - For warning and error messages
-- Emoji Tranlate (@emojiTranslate) - For emoji translation of organization type selector
+- Emoji Translate (@emojiTranslate) - For emoji translation of organization type selector
 - Canvas JS (@canvasjs) - For plotting county wise distribution of organizations on results section
 
 ## For the Map 
@@ -41,11 +41,11 @@
 - The project contains a module for validation for text and zip code inputs 
 - The project contains a errors module to display errors and warnings interactively with toasts and gifs
 - There's also a pie chart built using canvas js to find the county wise % distribution for a search result
-- The constants js contains all the relevant paths, proxy url and the functions mapper for detailed resutls section.
+- The constants js contains all the relevant paths, proxy url and the functions mapper for detailed results section.
 - Browser Detection has been done for IE11 and less. 
 - The project is launched from the run.js script. 
 - search_form_contents.js manages the results section 
-- details_content.js manages the detailed tabbed resutls section 
+- details_content.js manages the detailed tabbed results section 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
