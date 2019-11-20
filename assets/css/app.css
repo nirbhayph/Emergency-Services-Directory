@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Nunito&display=swap');
+
+*:focus {
+    outline: none;
+}
+
+::-webkit-scrollbar{ width: 0 !important }
+
+/* application level styling */
+body{
+    background-color: #222 !important;
+    color: white !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section{
+    background-color: #021D25;
+    text-align: center;
+}
+
+.header-text{
+    font-size: 64px;
+    color: #dc3545;
+    font-family: 'Comfortaa', cursive;
+}
+
+hr{
+    background-color: #dc3545;
+    height: 1.5px;
+}
+
+.page-content{
+    display:none;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+/* application level styling ends*/
+
+
+
+

@@ -1,0 +1,41 @@
+/* for error messages on tabs */
+.tab-error-text {
+    font-size: 32px;
+    margin-top: 10px;
+    color: #dc3545;
+}
+/* for error messages on tabs ends */
+
+/* for gifs displayed on errors */
+.ritchie {
+    margin-top: 15px;
+    border: 2px SOLID white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+/* for gifs displayed on errors ends*/
+
+/* for unsupported browsers message*/
+#errMessage {
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#overlayError {
+    margin-top: 100px;
+    text-align: center;
+    display: none;
+}
+/* unsupported browsers message ends */
+
+/* for map error */
+#mapError{
+    font-size: 20px;
+    border: 2px solid #dc3545;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #dc3545;
+    color: white;
+}
+/* map error ends */

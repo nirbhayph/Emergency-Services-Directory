@@ -1,0 +1,49 @@
+/* form elements styling */
+.form-input-app{
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+/* custom usa state map selector */
+#statesMap{
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+}
+
+#states{
+  max-width: 200px;
+  color: #021D25;
+}
+#states:read-only {
+  color: #021D25;
+}
+
+#states::placeholder {
+  color: #021D25;
+}
+
+.states-supporting-text{
+  margin-bottom: 100px !important;
+}
+/* custom usa state map selector ends*/
+
+/* select 2 custom styling */
+.select2-container--bootstrap .select2-selection{
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 40px;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+  color: white;
+  font-size: 22px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.select2-results {
+  color: #222;
+}
+/* select 2 custom styling ends*/
+
+/* form elements styling ends*/
+

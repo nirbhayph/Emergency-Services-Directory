@@ -1,0 +1,19 @@
+/* loading text styles and placements */
+.loading{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+}
+
+.loading-text{
+    font-size: 32px;
+    margin-top: 150px;
+    color: #dc3545;
+}
+
+.tab-loading-text{
+    margin-top: 10px;
+    color: #dc3545;
+}
+/* loading text styles and placements ends*/

@@ -1,0 +1,42 @@
+/* custom styling for datatable */
+table.dataTable tbody th, table.dataTable tbody td{
+    background-color: #222;
+}
+table.dataTable thead th{
+    color: white;
+    background-color: #dc3545;
+    border-bottom: 2px SOLID #dc3545;
+}
+  
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1{
+    background-color: #222;
+}
+  
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1{
+    background-color: #222;
+}
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td{
+    border-top: 1px solid #dc3545;
+}
+  
+table.dataTable{
+    border: 5px SOLID #dc3545;
+    border-radius: 10px;
+}
+  
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate{
+    color: darkgrey;
+    font-weight: bold;
+}
+ 
+.dataTables_wrapper .dataTables_filter input {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: darkgrey;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td{
+    border-bottom: 3px SOLID #dc3545;
+}
+/* custom styling for datatable ends */

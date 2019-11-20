@@ -35,7 +35,18 @@
 - Used in the people tab section, applied on the accordion elements. 
 - A detailed README.md file for the plugin can be found here - https://github.com/nirbhayph/jQuery-Search-Filter-Plugin and in the project directory.
 - Sample plugin usage other than this project - https://nirbhay.me/jQuery-Search-Filter-Plugin/
-    
+
+## Additional Details 
+- The project uses the module pattern 
+- The project contains a module for validation for text and zip code inputs 
+- The project contains a errors module to display errors and warnings interactively with toasts and gifs
+- There's also a pie chart built using canvas js to find the county wise % distribution for a search result
+- The constants js contains all the relevant paths, proxy url and the functions mapper for detailed resutls section.
+- Browser Detection has been done for IE11 and less. 
+- The project is launched from the run.js script. 
+- search_form_contents.js manages the results section 
+- details_content.js manages the detailed tabbed resutls section 
+
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
